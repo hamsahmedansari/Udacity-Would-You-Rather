@@ -1,0 +1,16 @@
+.question-container {
+  border: 1px solid #f5f5f5;
+  box-shadow: 0px 0px 10px 1px #ccc;
+  .header {
+    background-color: #f5f5f5;
+  }
+  .body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      max-width: 100px;
+      border-radius: 100%;
+    }
+  }
+}
